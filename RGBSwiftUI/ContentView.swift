@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            SliderRGB(color: .red)
+            SliderRGB(color: .green)
+            SliderRGB(color: .blue)
+        }
     }
 }
 
