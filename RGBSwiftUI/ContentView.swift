@@ -11,8 +11,6 @@ struct ContentView: View {
     var body: some View {
         VStack {
             SliderRGB(color: .red)
-            SliderRGB(color: .green)
-            SliderRGB(color: .blue)
         }
     }
 }
