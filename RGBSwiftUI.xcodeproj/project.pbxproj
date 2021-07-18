@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3265562726A4B54500ACAEEE /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3265562626A4B54500ACAEEE /* ColorView.swift */; };
 		3283CA7B269A002000DB2559 /* SliderRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283CA7A269A002000DB2559 /* SliderRGB.swift */; };
 		32A743C12698E6AF00F8F928 /* RGBSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A743C02698E6AF00F8F928 /* RGBSwiftUIApp.swift */; };
 		32A743C32698E6AF00F8F928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A743C22698E6AF00F8F928 /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3265562626A4B54500ACAEEE /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		3283CA7A269A002000DB2559 /* SliderRGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRGB.swift; sourceTree = "<group>"; };
 		32A743BD2698E6AF00F8F928 /* RGBSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A743C02698E6AF00F8F928 /* RGBSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				32A743C02698E6AF00F8F928 /* RGBSwiftUIApp.swift */,
 				32A743C22698E6AF00F8F928 /* ContentView.swift */,
+				3265562626A4B54500ACAEEE /* ColorView.swift */,
 				3283CA7A269A002000DB2559 /* SliderRGB.swift */,
 				32A743C42698E6B100F8F928 /* Assets.xcassets */,
 				32A743C92698E6B100F8F928 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3265562726A4B54500ACAEEE /* ColorView.swift in Sources */,
 				32A743C32698E6AF00F8F928 /* ContentView.swift in Sources */,
 				3283CA7B269A002000DB2559 /* SliderRGB.swift in Sources */,
 				32A743C12698E6AF00F8F928 /* RGBSwiftUIApp.swift in Sources */,
