@@ -14,7 +14,7 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
-                ColorView(color: .red)
+                ColorView(red: 100, green: 1, blue: 1)
                     .padding()
                 Spacer()
                 

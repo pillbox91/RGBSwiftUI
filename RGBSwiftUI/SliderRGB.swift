@@ -10,8 +10,8 @@ import SwiftUI
 struct SliderRGB: View {
     let color: Color
     
-    @State private var sliderValue = 100.0
-    @State private var sliderVal = ""
+    var sliderValue = 100.0
+    var sliderVal = ""
     
     var body: some View {
         HStack {
